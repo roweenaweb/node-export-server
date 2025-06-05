@@ -31,7 +31,7 @@
     "highcharts-export-server": "./bin/cli.js"
   },
   "scripts": {
-    "install": "node ./install.js",
+    "install": "echo 'Skipping install script on Render'",
     "prestart": "rm -rf tmp || del -rf tmp /Q && node ./node_modules/puppeteer/install.mjs",
     "start": "node ./bin/cli.js --enableServer 1 --logLevel 2",
     "start:dev": "nodemon ./bin/cli.js --enableServer 1 --logLevel 4",
