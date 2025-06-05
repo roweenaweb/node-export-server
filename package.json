@@ -1,3 +1,6 @@
+"scripts": {
+  "start": "highcharts-export-server --enableServer 1"
+}
 {
   "name": "highcharts-export-server",
   "author": "Highsoft AS <support@highcharts.com> (http://www.highcharts.com/about)",
